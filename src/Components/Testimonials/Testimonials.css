@@ -1,0 +1,97 @@
+.testimonials {
+    margin: 50px auto;
+    padding: 0 80px;
+    position: relative;
+
+}
+
+.next-icon,
+.pre-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #212ea0;
+}
+
+.pre-icon {
+    right: auto;
+    left: 0;
+}
+
+.testimonials .slider {
+    overflow: hidden;
+}
+
+.testimonials .slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transform: translateX(0%);
+}
+
+.testimonials .slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.testimonials .slider ul li .slide {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+    padding: 30px;
+    list-style: 1.4;
+
+}
+
+.testimonials .slider ul li .slide .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.testimonials .slider ul li .slide .user-info img {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px #212ea0 solid;
+    margin-right: 10px;
+}
+
+.testimonials .slider ul li .slide .user-info h3 {
+    color: #212ea0;
+}
+
+@media only screen and (max-width:767px) {
+    .testimonials {
+        padding: 0 40px;
+
+    }
+
+    .next-icon,
+    .pre-icon {
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonials .slider ul li{
+        padding: 10px;
+    }
+    .testimonials .slider ul li .slide{
+        padding: 10px;
+    }
+    .testimonials .slider ul li .slide .user-info{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+    .testimonials .slider ul li .slide .user-info h3{
+        font-size: 12px;
+    }
+
+}

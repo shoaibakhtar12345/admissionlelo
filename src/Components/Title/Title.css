@@ -1,0 +1,17 @@
+.title-section {
+    text-align: center;
+    padding: 50px 0 0 0;
+    color: #000;
+}
+
+.title-section h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.title-section p {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

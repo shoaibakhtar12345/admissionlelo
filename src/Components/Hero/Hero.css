@@ -1,0 +1,41 @@
+.hero {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assests/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-text {
+    text-align: center;
+    max-width: 800px;
+
+}
+.hero .hero-text h1{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.hero .hero-text p{
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ----------Media Query------------ */
+@media only screen and (max-width:767px) {
+    .hero .hero-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .hero .hero-text p {
+        max-width: 700px;
+        margin: 25px auto;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

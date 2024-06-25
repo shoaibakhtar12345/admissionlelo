@@ -1,0 +1,27 @@
+.gallery-section{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.gallery-section .gallery-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.gallery-images img{
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .gallery-section .gallery-images{
+        flex-wrap: wrap;
+    }
+    .gallery-images img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+  
+}
